@@ -1,0 +1,217 @@
+/* Custom CSS Property */
+@property --sun-color {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: false;
+}
+
+@property --sun-color-2 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: false;
+}
+
+/* Sky Gradient */
+.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 1100px;
+  background: linear-gradient(
+    180deg,
+    #03071e 30%,
+    #1a3a50,
+    #006692,
+    #8a92a6,
+    #f5a67e,
+    #ffe3a4,
+    #fafbbd,
+    #f4f5d6,
+    #f8f8f0 70%
+  );
+  animation: sky 10s ease-in infinite;
+}
+
+@keyframes sky {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -690px;
+  }
+}
+
+/* Sun */
+.sun {
+  width: 70px;
+  height: 70px;
+  top: 480px;
+  position: absolute;
+  --sun-color: #e85d04;
+  --sun-color-2: #f8f8f0;
+  background: radial-gradient(
+    circle,
+    var(--sun-color) 40%,
+    transparent,
+    var(--sun-color-2) 55%,
+    transparent
+  );
+  border-radius: 50px;
+  animation: sunrise, sun-color, sun-color-2;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sunrise {
+  from {
+    top: 480px;
+    left: 10px;
+  }
+
+  to {
+    top: 10px;
+    left: 300px;
+  }
+}
+
+@keyframes sun-color {
+  55% {
+    --sun-color: transparent;
+  }
+
+  100% {
+    --sun-color: transparent;
+  }
+}
+
+@keyframes sun-color-2 {
+  100% {
+    --sun-color-2: transparent;
+  }
+}
+
+/* House Foreground */
+.house-foreground {
+  width: 500px;
+  height: 95px;
+  position: absolute;
+  top: 405px;
+  left: 0px;
+  background: linear-gradient(
+    to bottom,
+    #519f44 20%,
+    #a0cc44,
+    #b7d54a,
+    #88c741,
+    #c4db5f
+  );
+  animation: house 10s ease-in infinite;
+}
+
+/* House */
+.house {
+  width: 500px;
+  height: 421px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  transform: scale(0.3);
+  animation: house 10s ease-in infinite;
+}
+
+.window {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: dodgerblue;
+  left: 213px;
+  top: 94px;
+}
+
+.roof {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 240px solid transparent;
+  border-right: 240px solid transparent;
+  border-bottom: 172px solid burlywood;
+  left: 10px;
+  top: 21px;
+}
+
+.wall {
+  position: absolute;
+  width: 370px;
+  height: 200px;
+  border: 2px solid white;
+  background: sienna;
+  left: 65px;
+  top: 193px;
+}
+
+.door {
+  position: absolute;
+  width: 86px;
+  height: 117px;
+  background: burlywood;
+  left: 207px;
+  top: 279px;
+}
+
+.door-knob {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: dodgerblue;
+  left: 217px;
+  top: 328px;
+}
+
+@keyframes house {
+  from {
+    filter: brightness(0);
+  }
+  20% {
+    filter: brightness(15%);
+  }
+
+  40% {
+    filter: brightness(5%);
+  }
+
+  to {
+    filter: brightness(100%);
+  }
+}
+
+/* Body and Container Settings */
+/* Center shapes */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Set background and border color */
+.container {
+  min-width: 500px;
+  height: 500px;
+  border: 5px solid lightgray;
+  background: transparent;
+  position: relative;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

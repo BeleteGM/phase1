@@ -1,0 +1,11 @@
+1. formulahendry.auto-close-tag
+2. formulahendry.auto-rename-tag
+3. pranaygp.vscode-css-peek
+4. Grepper.grepper
+5. oderwat.indent-rainbow
+6. ritwickdey.LiveServer
+7. PKief.material-icon-theme
+8. peakchen90.open-html-in-browser
+9. christian-kohler.path-intellisense
+10. esbenp.prettier-vscode
+11. CoenraadS.bracket-pair-colorizer

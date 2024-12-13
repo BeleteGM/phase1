@@ -1,0 +1,12 @@
+.background {
+  background-color: rgb(102, 102, 164);
+  color: white;
+}
+.puppy {
+  background-color: tomato;
+}
+.puppy p,
+.more-puppies {
+  font-size: 56px;
+  font-weight: 600;
+}

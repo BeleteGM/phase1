@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-color: #f5f5f7;
+}
+.all-images {
+  width: 734px;
+  height: 548px;
+  background-size: 734px 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iphone-15pro {
+  background-image: url("../images/hero_iphone15pro__i70z9oz3hj2i_small_2x (1).jpg");
+}
+.iphone-15 {
+  background-image: url("../images/hero_iphone15_announce__uuemlcwczn6u_small_2x\ \(1\).jpg");
+}
+.size {
+  font-size: 56px;
+}
+.size1 {
+  font-size: 40px;
+}
+.size2 {
+  font-size: 18px;
+  color: #06c;
+  opacity: 0.6;
+}
+span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.img {
+  width: 100%;
+}
+.human-images {
+  background-image: url("../images/hero_kfm__eggyizk68n8m_small_2x.jpg");
+}
+.human-images .film {
+  padding-top: 150px;
+}
+p {
+  padding: 0;
+}
+.iphone-watch {
+  background-image: url("../images/promo_apple_watch_series_9_order__b3u85rm9zf6u_small_2x\ \(1\).jpg");
+}
+.iphone-ipad {
+  background-image: url("../images/promo_ipad__fioegapg12qi_small_2x\ \(1\).jpg");
+}
+.vision-pro {
+  background-image: url("../images/promo_apple_vision_pro__f4v4zp0sum2y_small_2x\ \(1\).jpg");
+}
+.vision-pro-logo {
+  margin-top: 300px;
+}
+.Macbook-pro {
+  background-image: url("../images/promo_macbook_air_15_midnight__3zojl1nanrme_small_2x\ \(1\).jpg");
+}
+.trade-in {
+  background-image: url("../images/promo_iphone_tradein__bugw15ka691e_small_2x\ \(1\).jpg");
+}
+.card {
+  background-image: url("../images/tile__cauwwcyyn9hy_small_2x.jpg");
+  background-position: center;
+}
+
+paragraph {
+  color: #6e6e73;
+  background-color: #6e6e73;
+}
+
+@media (min-width: 768px) {
+  .display {
+    display: flex;
+  }
+
+  .iphone-15pro {
+    background-image: url("../images/hero_iphone15pro__i70z9oz3hj2i_medium.jpg");
+  }
+  .all-images {
+    width: 100%;
+    height: 617px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .iphone-15 {
+    background-image: url("../images/hero_iphone15_announce__uuemlcwczn6u_medium.jpg");
+  }
+  .human-images {
+    background-image: url("../images/hero_kfm__eggyizk68n8m_large\ \(1\).jpg");
+  }
+  .iphone-watch {
+    background-image: url("../images/hero_apple_watch_series_9_order__d0fi9mb84dci_medium.jpg");
+  }
+  .iphone-ipad {
+    background-image: url("../images/promo_ipad__fioegapg12qi_small_2x\ \(2\).jpg");
+  }
+
+  .vision-pro {
+    background-image: url("../images/promo_apple_vision_pro__f4v4zp0sum2y_small_2x\ \(3\).jpg");
+  }
+  .Macbook-pro {
+    background-image: url("../images/promo_macbook_air_15_midnight__3zojl1nanrme_small_2x\ \(2\).jpg");
+  }
+}
+@media (min-width: 992px) {
+  .all-images {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .display {
+    display: flex;
+  }
+
+  .iphone-15pro {
+    background-image: url("../images/hero_iphone15pro__i70z9oz3hj2i_large\ \(3\).jpg");
+  }
+
+  .iphone-15 {
+    background-image: url("../images/hero_iphone15_announce__uuemlcwczn6u_large\ \(2\).jpg");
+  }
+  .human-images {
+    background-image: url("../images/hero_kfm__eggyizk68n8m_large\ \(1\).jpg");
+  }
+  .iphone-watch {
+    background-image: url("../images/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall_2x.jpg");
+  }
+  .iphone-ipad {
+    background-image: url("../images/promo_ipad__fioegapg12qi_large_2x.jpg");
+  }
+
+  .vision-pro {
+    background-image: url("../images/promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg");
+  }
+  .vision-pro-logo {
+    margin-top: 400px;
+  }
+  .Macbook-pro {
+    background-image: url("../images/promo_macbook_air_15_midnight__3zojl1nanrme_small_2x\ \(2\).jpg");
+  }
+}

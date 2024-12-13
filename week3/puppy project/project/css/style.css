@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-color: rgb(49, 49, 134);
+  color: white;
+  text-align: center;
+}
+/*header part*/
+.header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+/*banner image*/
+.banner-section1 {
+  margin-bottom: 30px;
+  width: 100%;
+  
+}
+.banner-1{
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/*puppy image*/
+.puppy-section {
+  display: flex;
+  max-width: 960px;
+  margin: 40px auto;
+}
+.puppy-section .puppy-page .puppy-missing .puppy-page-2 {
+  width: 33%;
+}
+
+.puppy-missing {
+  background-color: rgb(148, 63, 63);
+  width: 300px;
+  height: 230px;
+  text-align: center;
+  padding: 40px;
+  font-size: 60px;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+}
+.more-puppies {
+  margin-bottom: 20px;
+}
+.more-puppies .puppies {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.puppy-3-4 {
+  max-width: 960px;
+  margin-bottom: 30px;
+}
+.puppy-3-4 .puppy-3 {
+  margin-right: 10px;
+}
+.puppy-3-4 .puppy-4 {
+  margin-left: 35px;
+}
+/*footer part*/
+.footer1 {
+  padding: 40px;
+  font-size: 36px;
+  margin-top: 40px;
+}
+.bonus-question {
+  text-align: center;
+}
+.container-row {
+  width: 100%;
+  height: auto;
+}
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: 20px solid rgb(16, 14, 16);
+  
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 6px;
+
+  background-color: yellow;
+  border: 20px solid rgb(16, 14, 16);
+  
+}
+.div3 {
+  width: 100px;
+  height: 100px;
+
+  padding: 10px;
+  border: 20px solid rgb(16, 14, 16);
+  background-color: red;
+  border-radius: 6px;
+ 
+}
+.div4 {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: blue;
+  border: 20px solid rgb(16, 14, 16);
+  border-radius: 6px;
+
+}
+.decoration {
+  border: 1px solid #06c;
+  margin-top: 20px;
+}
+.container-row{
+  display: flex;
+  justify-content: space-between;
+}

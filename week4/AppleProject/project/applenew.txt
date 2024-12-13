@@ -1,0 +1,90 @@
+open section class= outer-header
+open div class= apple-outerheader
+close apple outerheader
+close outerheader
+
+open section class= innerheader
+open div class= path-contner1
+close div path continer
+close innerheader 
+
+open section class= apple-ipone15pro
+open div class= iphone15pro
+close iphone15pro
+close apple-iphone15pro
+
+open section class= apple-iphone15
+open div clas= iphone-15
+close iphone-15
+close apple-iphone15
+
+open section class= apple-watch-series9
+open div clas= watch-series9
+close watch-series9
+close apple-watch-series9
+
+open section class= apple-ipadpro-visionpro
+open div clas= ipadpro
+close ipadpro
+open visionpro
+close visionpro
+close apple-ipadpro-visionpro
+
+open section class= apple macbook-air15-airpodspro
+open div clas= macbook-air15
+close macbook-air15
+open airpodspro
+close airpodspro
+close apple macbook-air15-airpodspro
+
+open section class= apple-trade-in-card
+open div clas= trade-in
+close trade-in
+open card
+close card
+close apple-trade-in-card
+
+open and close section
+
+section class= apple-page-paragraph
+div class= paragraph-page
+close  paragraph-page
+close apple-page-paragraph
+
+section class= footer-link-class
+div class= footer-shop-learn
+div class=shop-learn-applewallet
+close shop-learn-applewallet
+close footer-shop-learn
+div class=footer-Account
+div class=Account-entertainment
+close Account-entertainment
+close footer-Account
+div class= footer-apple-store
+close footer-apple-store
+div class= forbusinness
+div class=forbusiness-foreducation
+close forbusiness-foreducation
+div class=forbusiness-forhealthcare
+close forbusiness-forhealthcare
+div class= forbusiness-forgoverment
+close forbusiness-forgoverment
+close forbusinness
+div class=Apple Values
+div class=apple value-aboutapple
+close apple value-aboutapple
+close Apple Values
+
+close  footer-link-class
+secction class= "findapplestore"
+div class= "find"
+close find div
+close  findapple store
+footer class= "footer-link"
+div class= "copright"
+close copyright
+div class="footer-linkapple"
+close footer-linkapple
+div class= "country"
+close country
+close footer-link
